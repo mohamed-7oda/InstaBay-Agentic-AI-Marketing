@@ -42,6 +42,7 @@ Each hand-off is a structured Python dictionary. This deliberately avoids an ela
 - [One-page brand identity](Docs/InstaBay%20Brand%20Identity.pdf)
 - [Bilingual weekly calendar and complete Reel concept](outputs/content_calendar.md)
 - [Calendar spreadsheet source](data/content_calendar.csv)
+- [Ready-to-record 3–5 minute walkthrough script](Docs/VIDEO_WALKTHROUGH.md)
 
 The identity is warm, sensory and relaxed-luxury—made for Egyptian domestic travellers, GCC guests and European explorers. Visuals use natural turquoise water and sunset warmth. Arabic is independently written for a regional audience rather than presented as a literal English translation.
 
@@ -103,4 +104,4 @@ I would add OAuth/token lifecycle management, webhook ingestion, durable storage
 - [x] Engagement analysis and evidence-driven next batch
 - [x] Reproducible benchmark and before → after uplift
 - [x] Research/approach note, assumptions and production plan
-- [ ] Record and add the required 3–5 minute walkthrough video link
+- [x] Ready-to-record 3–5 minute walkthrough script (recording/link still requires the submitter)
