@@ -1,6 +1,12 @@
-Post,Likes,Comments,Shares,Saves,Reach
-Beach,320,24,16,31,5200
-Spa,180,11,6,12,3100
-Food,210,18,9,17,3600
-Offer,95,4,2,3,1900
-Reel,480,35,41,52,7800
+post_id,batch,content_type,pillar,posted_at,likes,comments,shares,saves,reach,watch_through_rate
+B01,before,Image,Beach & Nature,17:00,190,11,5,13,4800,
+B02,before,Image,Wellness,17:00,150,9,3,10,3600,
+B03,before,Carousel,Dining & Sunset,17:00,170,12,6,15,4200,
+B04,before,Image,Guest Moments,17:00,80,4,2,3,2500,
+B05,before,Reel,Sea Adventures,17:00,260,18,18,24,6100,0.38
+A01,after,Reel,Dining & Sunset,20:00,380,31,34,51,7200,0.57
+A02,after,Reel,Wellness,20:00,330,23,24,43,6200,0.54
+A03,after,Carousel,Dining & Sunset,20:00,240,20,18,38,5500,
+A04,after,Image,Guest Moments,20:00,260,17,15,34,5300,
+A05,after,Reel,Sea Adventures,20:00,370,30,35,56,7000,0.61
+A06,after,Image,Beach & Nature,20:00,230,19,16,38,5100,

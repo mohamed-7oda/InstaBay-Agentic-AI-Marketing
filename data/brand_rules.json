@@ -1,37 +1,13 @@
 {
   "brand_name": "InstaBay Resort & Spa",
   "location": "Hurghada, Egypt",
-
-  "tone": "Luxury, Relaxing, Friendly",
-
-  "target_audience": [
-    "Egyptian travelers",
-    "GCC tourists",
-    "European visitors"
-  ],
-
-  "content_pillars": [
-    "Beach & Nature",
-    "Luxury Experience",
-    "Adventure",
-    "Wellness",
-    "Guest Stories",
-    "Promotions"
-  ],
-
-  "hashtags": [
-    "#InstaBay",
-    "#InstaBayResort",
-    "#Hurghada",
-    "#RedSea",
-    "#VisitEgypt",
-    "#LuxuryTravel",
-    "#BeachVacation",
-    "#TravelGoals"
-  ],
-
-  "languages": [
-    "English",
-    "Arabic"
-  ]
+  "voice": "Warm, sensory, relaxed-luxury and confident; never pushy or generic.",
+  "target_audience": ["Egyptian weekend travellers", "GCC couples and families", "European Red Sea explorers"],
+  "content_pillars": ["Beach & Nature", "Wellness", "Sea Adventures", "Dining & Sunset", "Guest Moments"],
+  "visual_direction": "Turquoise water, warm sunset, coral accents, linen textures and candid holiday moments. Natural light; no heavy filters.",
+  "cadence": "Four to six weekly posts; Reels lead discovery, carousels earn saves, images maintain brand presence. Test 20:00 Africa/Cairo.",
+  "hashtag_rules": "Use 5-7 relevant tags: 2 branded, 2 destination, 1-3 experience. Never repeat an identical set all week.",
+  "hashtags": ["#InstaBay", "#InstaBayResort", "#Hurghada", "#RedSea", "#VisitEgypt", "#RedSeaEscape", "#EgyptTravel"],
+  "languages": ["English", "Arabic"],
+  "guardrails": ["Do not invent prices, availability, awards or guest claims.", "Arabic copy must be adapted naturally, not directly translated.", "A human must approve every external publication."]
 }

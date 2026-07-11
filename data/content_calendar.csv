@@ -1,8 +1,7 @@
-Day,Content Type,Topic,Language,Status
-Monday,Image,Beach Experience,English + Arabic,Planned
-Tuesday,Reel,Luxury Spa,English + Arabic,Planned
-Wednesday,Image,Resort Rooms,English + Arabic,Planned
-Thursday,Reel,Water Activities,English + Arabic,Planned
-Friday,Image,Restaurant & Dining,English + Arabic,Planned
-Saturday,Promotion,Weekend Offer,English + Arabic,Planned
-Sunday,Guest Story,Customer Experience,English + Arabic,Planned
+day,time_africa_cairo,format,pillar,topic,english_hook,arabic_hook,cta,status
+Monday,20:00,Reel,Beach & Nature,Sunrise swim,"Save your Red Sea reset.","احفظوا استراحتكم على البحر الأحمر.","Save this for your next escape / احفظوه لعطلتكم القادمة",Draft
+Tuesday,20:00,Carousel,Wellness,Spa ritual,"Six steps to slow down.","ست خطوات لوقت أهدأ.","Swipe and save / مرروا واحفظوا",Draft
+Wednesday,20:00,Image,Dining & Sunset,Golden-hour dinner,"Dinner tastes better at golden hour.","العشاء ألذ مع الغروب.","Tag your sunset date / شاركوا من تحبون",Draft
+Thursday,20:00,Reel,Sea Adventures,Snorkelling,"One dive, a thousand colours.","غطسة واحدة، وألف لون.","Which sea adventure first? / أي مغامرة تبدأون بها؟",Draft
+Friday,20:00,Carousel,Guest Moments,Family escape,"The moments you will talk about later.","لحظات ستتحدثون عنها لاحقاً.","Plan your weekend / خططوا لعطلتكم",Draft
+Saturday,20:00,Reel,Wellness,Poolside reset,"Your unhurried Saturday starts here.","سبتكم على مهل يبدأ هنا.","Save your reset / احفظوا وقتكم",Draft
