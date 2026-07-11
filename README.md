@@ -248,9 +248,3 @@ AI & Machine Learning Engineer
 Computer Science Graduate
 
 Data Science & Artificial Intelligence
-
----
-
-## 📄 License
-
-This project was developed as part of the Bright Brains IT Technical Challenge and is intended for educational and evaluation purposes.
