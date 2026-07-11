@@ -16,6 +16,7 @@ class WorkflowTests(unittest.TestCase):
         self.assertTrue(result["passed"])
         self.assertIn("reel_storyboard", self.asset)
         self.assertGreaterEqual(result["arabic_quality_score"], 4)
+        self.assertNotIn("sunset by the red sea", self.asset["caption_ar"].lower())
 
     def test_publish_requires_approval_and_dry_run_has_plan(self):
         publisher = PublisherAgent(dry_run=True)

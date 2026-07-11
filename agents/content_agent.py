@@ -5,6 +5,16 @@ from agents.brand_agent import BrandAgent
 
 
 class ContentAgent:
+    ARABIC_TOPIC_MAP = {
+        "sunset by the red sea": "غروب على البحر الأحمر",
+        "sunrise swim": "سباحة عند الشروق",
+        "spa ritual": "طقوس السبا",
+        "golden-hour dinner": "عشاء وقت الغروب",
+        "snorkelling": "مغامرة سنوركلينغ",
+        "family escape": "عطلة عائلية",
+        "poolside reset": "استراحة بجانب المسبح",
+    }
+
     def __init__(self):
         self.brand = BrandAgent().get_brand()
 
@@ -16,6 +26,7 @@ class ContentAgent:
         optimized: bool = False,
     ) -> dict:
         """Return a publishable, reviewable asset; no network/model call is required."""
+        topic_ar = self.ARABIC_TOPIC_MAP.get(topic.strip().lower(), "لحظة هادئة على البحر الأحمر")
         hook_en = "Save this for your next Red Sea escape."
         hook_ar = "احفظوا هذا المنشور لعطلتكم القادمة على البحر الأحمر."
         caption_en = (
@@ -24,7 +35,7 @@ class ContentAgent:
             "Which moment would you choose first?"
         )
         caption_ar = (
-            f"{hook_ar}\n\nفي إنستا باي، {topic} ليست مجرد لقطة جميلة؛ إنها مساحة للهدوء: "
+            f"{hook_ar}\n\nفي إنستا باي، {topic_ar} ليست مجرد لقطة جميلة؛ إنها مساحة للهدوء: "
             "مياه صافية، صباح على مهل، ووقت لكم. أي لحظة ستختارون أولاً؟"
         )
         hashtags = self.brand["hashtags"][:5] + ["#RedSeaEscape", "#HurghadaHotels"]
@@ -34,6 +45,7 @@ class ContentAgent:
             "content_type": content_type,
             "pillar": pillar,
             "topic": topic,
+            "topic_ar": topic_ar,
             "optimized": optimized,
             "caption_en": caption_en,
             "caption_ar": caption_ar,

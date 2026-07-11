@@ -54,8 +54,8 @@ The offline dataset contains 5 baseline and 6 improved-batch posts. It is synthe
 |---|---|---:|---:|
 | Brand consistency | 1–5 rubric: voice, pillar, visual brief, hashtag rules and guardrails; `ReviewAgent` regression check | 4.0/5 | 5.0/5 |
 | Arabic quality | 1–5 author rubric: natural regional phrasing, Arabic CTA, legibility and brand-voice match; script/CTA are regression-tested | 3.5/5 | 5.0/5 |
-| Weighted engagement rate | `(likes + comments + 2×saves + 2×shares) / reach × 100` | 5.10% | 7.51% |
-| Optimization uplift | Relative change in mean weighted engagement rate from the included dataset | — | **+47.4%** |
+| Weighted engagement rate | `(likes + comments + 2×saves + 2×shares) / reach × 100` | 5.02% | 7.51% |
+| Optimization uplift | Relative change in mean weighted engagement rate from the included dataset | — | **+49.6%** |
 | Efficiency | Template generation on a local machine; no paid API call required | <$0.001 / asset | <$0.001 / asset |
 | Latency | Template creation; excludes optional image/video production | <0.1 s / asset | <0.1 s / asset |
 | Autonomy | All stages except final external action run unattended | 80% | 80%; human approval remains mandatory |

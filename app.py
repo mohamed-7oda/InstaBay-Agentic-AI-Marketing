@@ -67,7 +67,7 @@ with analytics_tab:
         getattr(st, level)(message)
 
 with integration_tab:
-    st.subheader("Production-ready adapter, safe by default")
+    st.subheader("Live-ready adapter, safe by default")
     st.markdown("The app defaults to a dry-run. A real deployment needs a Meta app, an Instagram Professional account, a linked Facebook Page (for Facebook Login), permissions and a public HTTPS media URL.")
     st.code("META_ACCESS_TOKEN=...\nIG_USER_ID=...\n# call PublisherAgent(dry_run=False).publish(asset, approved=True, media_url='https://...')", language="bash")
     st.markdown("For a Reel the adapter creates a media container, polls its `status_code` until `FINISHED`, then calls `media_publish`. The approval check is enforced in code before either dry-run or live action.")
