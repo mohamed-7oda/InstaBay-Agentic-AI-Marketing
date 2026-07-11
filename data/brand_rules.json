@@ -1,0 +1,37 @@
+{
+  "brand_name": "InstaBay Resort & Spa",
+  "location": "Hurghada, Egypt",
+
+  "tone": "Luxury, Relaxing, Friendly",
+
+  "target_audience": [
+    "Egyptian travelers",
+    "GCC tourists",
+    "European visitors"
+  ],
+
+  "content_pillars": [
+    "Beach & Nature",
+    "Luxury Experience",
+    "Adventure",
+    "Wellness",
+    "Guest Stories",
+    "Promotions"
+  ],
+
+  "hashtags": [
+    "#InstaBay",
+    "#InstaBayResort",
+    "#Hurghada",
+    "#RedSea",
+    "#VisitEgypt",
+    "#LuxuryTravel",
+    "#BeachVacation",
+    "#TravelGoals"
+  ],
+
+  "languages": [
+    "English",
+    "Arabic"
+  ]
+}
